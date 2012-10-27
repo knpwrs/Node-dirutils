@@ -1,0 +1,18 @@
+{
+  "name": "dirutils",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kenneth Powers",
+    "email": "mail@kenpowers.net"
+  },
+  "description": "Adds pushdir, popdir, and dirs methods to node's process object.",
+  "main": "lib/dirutils.js",
+  "keywords": [
+    "push",
+    "pop",
+    "dirs",
+    "dir",
+    "process"
+  ],
+  "license": "MIT"
+}
