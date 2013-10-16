@@ -56,6 +56,15 @@ Regardless of if a boolean is passed in or not, `dirs` returns the current
 stack as a mutable array. This should only be used for reference and even
 though you can change the array, it is highly recommended that you do not.
 
+## Running the Tests
+To run the tests, you must have `testem` and `mocha` installed globally:
+
+    npm i -g testem mocha
+
+Once those are installed, you should run `npm install` from this project's
+root directory. Once that is done you can run `testem` or `npm test` to run
+the tests.
+
 ## License
 **The MIT License**
 

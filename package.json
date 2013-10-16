@@ -7,6 +7,9 @@
   },
   "description": "Adds pushdir, popdir, and dirs methods to node's process object.",
   "main": "lib/dirutils.js",
+  "scripts": {
+    "test": "mocha -r test/setup.js test/*.test.js"
+  },
   "keywords": [
     "push",
     "pop",
@@ -14,5 +17,8 @@
     "dir",
     "process"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.8.1"
+  }
 }
