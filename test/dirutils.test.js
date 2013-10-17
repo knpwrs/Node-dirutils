@@ -13,16 +13,19 @@ describe('dirutils tests', function () {
     process.dirs(true);
   });
 
-  it('should define `pushdir` as a function', function () {
+  it('should define `pushdir` as a non-enumerable `Function`', function () {
     expect(process.pushdir).to.be.a('Function');
+    expect(process.propertyIsEnumerable('pushdir')).to.be.false;
   });
 
-  it('should define `popdir` as a function', function () {
+  it('should define `popdir` as a non-enumerable `Function`', function () {
     expect(process.popdir).to.be.a('Function');
+    expect(process.propertyIsEnumerable('popdir')).to.be.false;
   });
 
-  it('should define `dirs` as a function', function () {
+  it('should define `dirs` as a non-enumerable `Function`', function () {
     expect(process.dirs).to.be.a('Function');
+    expect(process.propertyIsEnumerable('dirs')).to.be.false;
   });
 
   it('should support standard push and pop', function () {
