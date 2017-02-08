@@ -1,5 +1,7 @@
 # Node dirutils
 ## Overview
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/knpwrs/Node-dirutils.svg)](https://greenkeeper.io/)
 `dirutils` is a simple module for Node.JS which adds methods to the `process`
 object which mimic the behavior of `pushd`, `popd`, and `dirs` in unix-like
 systems. The methods provided by this module are `pushdir`, `popdir`, and
